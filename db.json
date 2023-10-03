@@ -1,0 +1,93 @@
+{
+  "livros": [
+    {
+      "id": 1,
+      "titulo": "O Hobbit",
+      "autor": "J.R.R. Tolkien",
+      "ano_publicacao": 1937,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "ano_publicacao": 1949,
+      "categoria_id": 2
+    },
+    {
+      "titulo": "A Queda dos Reinos",
+      "autor": "Morgan Rhodes",
+      "ano_publicacao": "2013",
+      "categoria_id": "1",
+      "id": 3
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Fantasia"
+    },
+    {
+      "id": 2,
+      "nome": "Ficção Científica"
+    },
+    {
+      "nome": "suspense",
+      "id": 3
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "João",
+      "senha": "123",
+      "livros_emprestados": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Maria",
+      "senha": "456",
+      "livros_emprestados": [
+        3
+      ]
+    },
+    {
+      "nome": "NIlson",
+      "id": 3
+    },
+    {
+      "nome": "Junior",
+      "id": 4
+    },
+    {
+      "nome": "Carol",
+      "id": 5
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "usuario_id": 2,
+      "livro_id": 1,
+      "data_emprestimo": "2023-10-02",
+      "data_devolucao": "2023-10-16"
+    },
+    {
+      "id": 2,
+      "usuario_id": 1,
+      "livro_id": 2,
+      "data_emprestimo": "2023-10-03",
+      "data_devolucao": "2023-10-17"
+    },
+    {
+      "usuario_id": "1",
+      "livro_id": "2",
+      "data_emprestimo": "2023-09-10",
+      "data_devolucao": "2023-11-25",
+      "id": 3
+    }
+  ]
+}
